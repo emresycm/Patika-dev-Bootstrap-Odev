@@ -1,0 +1,63 @@
+body {
+    padding-top: 80px;
+}
+h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px ;
+}
+h3 {
+    font-size: 80px;
+    color: rgb(253, 253, 253);
+}
+h5 {
+    text-align: center;
+}
+hr {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul li a:link {
+    
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+.card-text {
+    text-align: center;
+}
+.p-header {
+    font-size: 18px;
+}
+.p-hakkimizda {
+    margin:40px
+}
+.navbar {
+    width: 100%;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    
+    width: 100%;
+    text-decoration: none; 
+}
+.footer-list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.footer-text {
+    text-align: center;
+}
+
+

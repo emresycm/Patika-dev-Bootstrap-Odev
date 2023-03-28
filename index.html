@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Müzik Dükkanım</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img width="60px" src="Images/logo/logo.jpg" alt="logo" />
+        <h1 class="navbar-brand">Müzik Dükkanım</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Ana Sayfa</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ürünlerimiz
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="guitars.html">Gitarlar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pianos.html">Pianolar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="drums.html">Davullar</a>
+                </li>
+              </ul>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="Images/store/Store-1-small.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>
+              Müziğin <br />
+              Merkezi
+            </h3>
+            <p class="p-header">
+              Enstrümanınızla kendinizi ifade edin. Dükkanımızda, size özel
+              enstrüman seçenekleri sizi bekliyor.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Images/store/store-2-small.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Tutkunuzu keşfedin, müziği yaşayın.</h3>
+            <p class="p-header">
+              Sadece bir müzik aleti değil, bir yaşam tarzı. Dükkanımızda size
+              özel enstrümanlarla hayatınızın müziğini yaratın.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Images/store/store-3-small.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Ritimler hayatın kalbidir.</h3>
+            <p class="p-header">
+              Müziğin gücü ellerinizde! Enstrümanlarımızla, hayallerinizdeki
+              müziği yaratın.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Content Cards -->
+
+    <h2>Markalar</h2>
+
+    <div class="container brand-cards">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/fender.png"
+              class="card-img-top"
+              alt="fender-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Fender, ABD merkezli tüm Dünya çapında çok ünlü bir gitar
+                üreticisi şirkettir. 1952 yılında dünyanın ilk bas gitarını
+                üreten bu firma artık bir marka değil de bir tür olmuştur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/gibson.png"
+              class="card-img-top"
+              alt="gibson-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gibson, ABD merkezli elektro gitar ve akustik gitar üreticisi
+                şirkettir. 1950'lerden beri üretmekte oldukları Les Paul modeli
+                dünyada en çok satılan gitarlar arasındadır.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/ibanez.jpeg"
+              class="card-img-top"
+              alt="ibanez-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Ibanez Japonya Nagoya'da kurulmuştur. Joe Satriani, Paul
+                Gilbert, Steve Vai gibi pek çok ünlü gitaristin tercih ettiği
+                firma elektro gitar pazarında en ön sıralardadır.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container brand-cards mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/SteinwayandSons.webp"
+              class="card-img-top"
+              alt="fender-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Steinway & Sons, ya da Steinway, Alman piyano üreticisi Heinrich
+                Engelhard Steinweg tarafından Manhattan'da kurulan
+                Alman-Amerikan piyano şirketidir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/yamaha.png"
+              class="card-img-top"
+              alt="gibson-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Yamaha, Torakusu Yamaha adlı müzisyen ve girişimci tarafından
+                1887 yılında kurulmuş olan bir Japon şirketidir. Firma geniş bir
+                yelpazede üretim yapmaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/schimmel.png"
+              class="card-img-top"
+              alt="ibanez-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Schimmel Almanya ve Polonya'da fabrikaları bulunan bir Alman
+                piyano üreticisidir. Ürün yelpazesi "en çok ödül alan Alman
+                piyanosu" olarak tanımlandı.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container brand-cards mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/tama.png"
+              class="card-img-top"
+              alt="fender-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Tama Drums, Starclassic, Rockstar gibi modelleri yanı sıra,
+                dünyanın en iyi twin pedallarından biri olduğu düşünülen "Iron
+                Cobra"'yı da üretmiştir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/Pearl.png"
+              class="card-img-top"
+              alt="gibson-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Pearl Musical Instrument Company, ağırlıklı olarak vurmalı
+                çalgılar olmak üzere geniş bir ürün yelpazesine sahip Japonya
+                merkezli bir şirkettir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mb-5">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Brands/gretsch.png"
+              class="card-img-top"
+              alt="ibanez-logo"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gretsch Drums, Amerikan müzik aleti üreticisi Gretsch'in bir
+                bölümüdür. Şirket 1883 yılında Brooklyn, New York'ta kuruldu.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container bg-body">
+        <ul class="footer-list">
+          <li><a href="" class="link-dark">Privacy Policy</a></li>
+          <li><a href="" class="link-dark">Terms & Conditions</a></li>
+        </ul>
+        <hr />
+        <p class="footer-text">© 2023 Muzik Dukkanim. All Rights Reserved.</p>
+      </div>
+
+      <div class="text-us"></div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/0b1046e750.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
